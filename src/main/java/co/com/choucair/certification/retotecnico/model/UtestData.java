@@ -14,11 +14,9 @@ public class UtestData {
     private String strComputer;
     private String strVersion;
     private String strLanguage;
-    private String strMobile;
-    private String strModel;
-    private String strSystem;
     private String strPassword;
     private String strConfirmPass;
+    private String strButtonComplete;
 
 
 
@@ -126,30 +124,6 @@ public class UtestData {
         this.strLanguage = strLanguage;
     }
 
-    public String getStrMobile() {
-        return strMobile;
-    }
-
-    public void setStrMobile(String strMobile) {
-        this.strMobile = strMobile;
-    }
-
-    public String getStrModel() {
-        return strModel;
-    }
-
-    public void setStrModel(String strModel) {
-        this.strModel = strModel;
-    }
-
-    public String getStrSystem() {
-        return strSystem;
-    }
-
-    public void setStrSystem(String strSystem) {
-        this.strSystem = strSystem;
-    }
-
     public String getStrPassword() {
         return strPassword;
     }
@@ -164,5 +138,13 @@ public class UtestData {
 
     public void setStrConfirmPass(String strConfirmPass) {
         this.strConfirmPass = strConfirmPass;
+    }
+
+    public String getStrButtonComplete() {
+        return strButtonComplete;
+    }
+
+    public void setStrButtonComplete(String strButtonComplete) {
+        this.strButtonComplete = strButtonComplete;
     }
 }
