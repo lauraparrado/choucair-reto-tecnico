@@ -28,10 +28,10 @@ public class DiligenceStepTwo implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Enter.theValue(city).into(UtestFormStepTwo.INPUT_CITY),
                 Hit.the(Keys.ARROW_DOWN).into(UtestFormStepTwo.INPUT_CITY),
-                Enter.theValue(postal).into(UtestFormStepTwo.INPUT_POSTAL),
                 Click.on(UtestFormStepTwo.SPAN_COUNTRY),
                 Enter.theValue(country).into(UtestFormStepTwo.INPUT_COUNTRY),
                 Hit.the(Keys.ENTER).into(UtestFormStepTwo.INPUT_COUNTRY),
+                Enter.theValue(postal).into(UtestFormStepTwo.INPUT_POSTAL),
                 Click.on(UtestFormStepTwo.BUTTON_NEXT_DEVICES));
     }
 }
